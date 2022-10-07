@@ -23,14 +23,7 @@ const options = [
   },
 ];
 
-export const FormInputMultiCheckbox = ({
-  name,
-  control,
-  setValue,
-  label,
-  errors,
-  helperText,
-}) => {
+export const FormInputMultiCheckbox = ({ name, control, setValue, label }) => {
   const {
     field: { onChange, value },
     fieldState: { invalid, error },

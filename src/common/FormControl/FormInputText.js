@@ -5,7 +5,7 @@ import { TextField } from "@mui/material";
 export const FormInputText = ({ name, control, label }) => {
   const {
     field: { onChange, value },
-    fieldState: { invalid, error },
+    fieldState: { error },
   } = useController({
     name,
     control,

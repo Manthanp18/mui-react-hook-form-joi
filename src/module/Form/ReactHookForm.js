@@ -96,7 +96,7 @@ const ReactHookForm = () => {
         control={control}
         label="Dropdown Input"
       />
-      {/* <FormInputDate name="dateValue" control={control} label="Date Input" /> */}
+
       <FormInputMultiCheckbox
         control={control}
         setValue={setValue}

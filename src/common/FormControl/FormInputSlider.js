@@ -5,9 +5,8 @@ import { Controller, useController } from "react-hook-form";
 export const FormInputSlider = ({
   name,
   control,
-  setValue,
+
   label,
-  helperText,
 }) => {
   const {
     field: { onChange, value },

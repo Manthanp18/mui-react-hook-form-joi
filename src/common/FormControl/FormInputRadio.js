@@ -29,7 +29,7 @@ export const FormInputRadio = ({
 }) => {
   const {
     field: { onChange, value },
-    fieldState: { invalid, error },
+    fieldState: { error },
   } = useController({
     name,
     control,

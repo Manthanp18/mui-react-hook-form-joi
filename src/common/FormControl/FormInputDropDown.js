@@ -6,7 +6,7 @@ import {
   MenuItem,
   Select,
 } from "@mui/material";
-import { useFormContext, Controller, useController } from "react-hook-form";
+import { useController } from "react-hook-form";
 
 const options = [
   {
